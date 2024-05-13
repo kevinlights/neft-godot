@@ -48,8 +48,6 @@ __meta__ = {
 }
 
 [node name="WallManager" parent="." instance=ExtResource( 6 )]
-size = 3
-wall_speed = 200
 
 [node name="Wall" parent="WallManager" instance=ExtResource( 1 )]
 position = Vector2( 1024, 394.171 )
